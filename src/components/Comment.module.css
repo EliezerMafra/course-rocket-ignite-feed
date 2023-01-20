@@ -65,10 +65,22 @@
 	align-items: center;
 
 	border-radius: 2px;
+
+	transition: color 0.2s;
 }
 
 .commentBox footer button:hover {
+	color: var(--white);
+}
+
+.commentBox footer button:active {
 	color: var(--green-300);
+	transform: scale(0.96);
+	transition: color 0s;
+}
+
+.commentBox footer button:focus {
+	box-shadow: none;
 }
 
 .commentBox footer button svg {
