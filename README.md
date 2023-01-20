@@ -4,8 +4,6 @@
 
 The project was developed during Rocketseat Ignite Course and it is a simple front-end for a Feed website
 
-Figma Layout: [CLICK HERE](https://www.figma.com/community/file/1113573231685349036)
-
 ## 📃 Technologies
 
 - **ReactJS**
