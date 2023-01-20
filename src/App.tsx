@@ -1,5 +1,5 @@
 import { Header } from "./components/Header"
-import { Post } from "./components/Post"
+import { Post, PostProps } from "./components/Post"
 import { Sidebar } from "./components/Sidebar"
 
 import './global.css'
@@ -68,7 +68,7 @@ const posts = [
     publishedAt: new Date('2023-1-17 16:30:35')
   },
 
-];
+] as PostProps[];
 
 function App() {
 
